@@ -16,7 +16,7 @@
         <!-- TODO: Add the URL to your own tomcat server. Used to deploy your WAR-file -->
         <!-- IMPORTANT-1: If your server uses https (via NGINX) use your DOMAIN NAME and https below: -->
         <!-- IMPORTANT-2: Observe we are NOT using /manager/html but /manager/text for script uploads -->
-        <remote.server>https://test.singah.dk/manager/text</remote.server>
+        <remote.server>something</remote.server>
 
         <!-- TODO: Add your own database name -->
         <!-- IMPORTANT-1: The database should exist on your droplet -->
@@ -42,7 +42,12 @@
             <artifactId>jaxrs-ri</artifactId>
             <version>2.32</version>
         </dependency>
-               
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-plugin-api</artifactId>
+            <version>3.8.5</version>
+        </dependency>
+
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
@@ -223,6 +228,7 @@
                     </execution>
                 </executions>
             </plugin>
+
         </plugins>
     </build>
 

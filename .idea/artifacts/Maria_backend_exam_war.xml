@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Maria_backend_exam:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>Maria_backend_exam</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="24TimersEksamen-1.0.1.war">
+      <element id="artifact" artifact-name="Maria_backend_exam:war exploded" />
+    </root>
+  </artifact>
+</component>
